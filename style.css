@@ -1,68 +1,73 @@
-*{
-    margin: 0;
-    padding: 0;
+* {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
-body{
-    background-color: #1a1a2e;
+
+
+header {
+    background-color: rgb(92, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 80px;
+}
+
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+
+.links a {
+    color: black;
+    text-decoration: none;
+}
+
+
+.hero {
+    background-color: rgb(48, 1, 1);
+    height: 580px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:40px;                            
+    padding: 60px 0px;
+
 
 }
-h1{
+
+
+.card {
+    width: 250px;
+    background-color: rgb(77, 3, 3);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+
+.card-img {
+    width: 206px;
+    height: 97px;
+    background-color: rgb(0, 0, 0);
+}
+
+
+footer {
+    background-color: rgb(65, 1, 1);
     text-align: center;
-    color: #00d4ff;
-    margin: 20px 0px;
+    padding: 2opx 0;
+}
 
-}
-p{
-    color: white;
-    text-align: center;
-    margin-bottom: 20px;
 
-}
-.padrao-01{
-    border: 1px solid white;
-    width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    background-image: url(./assets/Group\ 1.png);
 
-}
-.padrao-02{
-    border: 1px solid white;
-    width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    background-image: url(./assets/Rectangle\ 3.png);
-
-}
-.padrao-03{
-    border: 1px solid white;
-    width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    background-image: url(./assets/Rectangle\ 3.png);
-    background-repeat: no-repeat;
-    background-position: center;
-}
-.padrao-04{
-    border: 1px solid white;
-    width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    background-image: url(./assets/Rectangle\ 32.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-
-}
-.padrao-05{
-    border: 1px solid white;
-    width: 350px;
-    height: 200px;
-    margin: 0 auto;
-    background-image: url(./assets/Rectangle\ 5.png);
-    background-repeat: no-repeat;
-    background-position: bottom right;
-    background-size: 50px;
-
-}
