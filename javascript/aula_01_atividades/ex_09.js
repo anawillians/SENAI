@@ -1,9 +1,9 @@
 let pontuacao = 100;
-pontuacao = 150; 
-
-console.log(pontuacao); // Imprime: 150
-
-const nomeJogo = "Xadrez";
-nomeJogo = "Damas"; // Isso vai gerar um erro
+pontuacao = 150;
+const nomeJogo = "Xadrez"
 
 
+console.log (pontuacao); // 150
+
+
+//a variavel let pontuacao pode ser alterada normalmente, então ela deixa de ser 100 e se torna 150
