@@ -6,7 +6,6 @@ if (valorCompra > 500) {
     valorFinal = valorCompra * 0.80;
 } else if (valorCompra > 200) {
     valorFinal = valorCompra * 0.90;
-    valorFinal = valorCompra * 0.95;
 } else {
     valorFinal = valorCompra;        
 }
